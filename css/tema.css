@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+#fondotema {
+    background-color: gray;
+}
+.tema{
+    background-color: gainsboro;
+    position: relative;
+    font-family: 'Koulen', cursive;
+    border-radius: 2%;
+    padding: 1px;
+    margin: 10px 1px;
+    box-sizing:border-box;
+    width: 100vh;
+    left: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    display: flex;
+}
+.logo{
+    font-family: 'Koulen', cursive;
+    background-image: url(../imagenes/descarga\ \(2\).png); 
+    background-position:left ;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 0px;
+    height: 200px;
+    width: 210px;
+    border-radius: 2%;
+    padding: 0px;
+    margin: 0px;
+    left: 1px;
+    box-sizing:border-box;
+    align-items:flex-start;
+    display: flex;
+}

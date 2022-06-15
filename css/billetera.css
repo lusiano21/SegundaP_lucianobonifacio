@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+#bille__estruc{
+        background-color: cornflowerblue;
+    }
+.bille{
+    display: flex;
+    border-radius: 1%;
+    background-color: darkolivegreen;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Koulen', cursive;  
+    place-items: center;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:column;
+}
+div{
+    list-style: none;
+}
+.logo{
+    font-family: 'Koulen', cursive;
+    background-image: url(../imagenes/descarga\ \(2\).png); 
+    background-position:left ;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 0px;
+    height: 200px;
+    width: 210px;
+    border-radius: 2%;
+    padding: 0px;
+    margin: 0px;
+    left: 1px;
+    box-sizing:border-box;
+    align-items:flex-start;
+    display: flex;
+}
+
+@media screen and (max-width:425px) {
+    #bille__estruc{
+        background-color: darkseagreen;
+    }
+}
+@media screen and (min-width:768px) {
+    #bille__estruc{
+        background-color: seagreen;
+
+    }
+}

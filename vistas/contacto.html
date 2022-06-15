@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <link rel="stylesheet" href="../favicon.png">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body id="fondocontac">
+  <header class="usu">
+  <ul>
+    <li>Crea tu usuario</li>
+  </ul>
+  <form action="" method="get" enctype="text/plain">
+    <fieldset class="usuNu">
+      <legend>Datos de cuenta</legend>
+      <div>
+        <label for="userName">Crea un usuario:____</label>
+        <input type="text" id="userName" name="userName" required>
+      </div>
+      <div>
+      <label for="userPassword">Crea una contraseña:</label>
+      <input type="password" id="userPassword" name="userPassword" required>
+    </div>
+    <div>
+      <label for="userMail">Correo:__________</label>
+      <input type="email" id="userMail" name="userMail" required>
+    </div>
+    <div>
+      <label for="userDate">Edad:____________</label>
+      <input type="date" name="userDate" id="userDate"
+      min="1950-05-10" max="2004-05-10" required>
+    </div>
+    <div>
+      <label for="userTel">Teléfono:________</label>
+      <input type="tel" name="userTel" id="userTel" required>
+    </div>
+    <div>
+      <label for="userOpinion">Porque quieres invertir:</label>
+      <textarea name="userOpinion" id="userOpinion" cols="30" rows="10" placeholder="*Opcional"></textarea>
+    </div>
+    <input type="reset" value="Borrar todo"> 
+      <button>Enviar</button> 
+    </fieldset>
+    </form>    
+  <a href="../index.html">Volver a Inicio</a>
+  </header>
+  <li class="logo">inversiones.com</li>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
