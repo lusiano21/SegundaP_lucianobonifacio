@@ -48,7 +48,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 .cripto{
     display: flex;
     border-radius: 1%;
-    height: 30rem;
+    height: 35rem;
     background-color: goldenrod;
     margin: 1rem;
     padding: 1rem;
@@ -61,7 +61,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
     transition:height 1s, background 1s;
 }
 .cripto:hover{
-    height: 35rem;
+    height: 40rem;
     background-color: orange;
 }
 .cripto li{
@@ -71,7 +71,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 .nft{
     display: flex;
     border-radius: 1%;
-    height: 30rem;
+    height: 35rem;
     background-color:midnightblue;
     margin: 1rem;
     padding: 1rem;
@@ -85,7 +85,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 }
 
 .nft:hover{
-    height: 35rem;
+    height: 40rem;
     background-color:orange;
 }
 .nft li{
@@ -113,7 +113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 }
 #Index__estructura{
     display:grid;
-    grid-template-columns:1fr 2fr 1fr; 
+    grid-template-columns:1fr auto 1fr; 
     grid-template-rows: auto 2fr auto ;
     grid-template-areas: "header header header" 
                          "NFT main cripto"
