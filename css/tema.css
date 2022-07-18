@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-#fondotema {
+#tema_estruc {
     background-color: gray;
 }
 .tema{
@@ -33,4 +33,15 @@
     box-sizing:border-box;
     align-items:flex-start;
     display: flex;
+}
+@media screen and (max-width:425px) {
+    #tema__estruc{
+        background-color: chartreuse;
+    }
+}
+@media screen and (min-width:768px) {
+    #tema__estruc{
+        background-color:darkkhaki; 
+    
+    }
 }

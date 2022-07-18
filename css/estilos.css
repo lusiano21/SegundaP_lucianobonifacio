@@ -1,29 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-
-.Header {
-    display: flex;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1%;
-    background: rgb(2,0,36);
-    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
-    font-family: 'Koulen', cursive;
-    place-items: center;
-    justify-content:space-evenly ;
-    align-items: center;
-    flex-direction: row;
+#Index__estructura{
+    background-color:orange;
 }
-.Header h1{
-    font-size: 6vh; 
-    
-}
-.Header div{
-    border: 4px solid black;
-    width: 20vh;
+.logo {
+    height: 5rem;
 }
 .Main{
     display: flex;
@@ -33,7 +14,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
     padding: 1rem;
     font-family: 'Koulen', cursive;  
     place-items: center;
-    background-color:blanchedalmond;
+    background-color: goldenrod;
     align-items:center;
     justify-content:center;
     flex-direction:column;
@@ -41,7 +22,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 }
 .Main:hover{
     height: 35rem;
-    background-color: orange;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
 }
 
 
@@ -62,17 +47,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 }
 .cripto:hover{
     height: 40rem;
-    background-color: orange;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
 }
-.cripto li{
-    position: absolute;
-    position: relative;
+.logo__cripto {
+    height: 15rem;
 }
 .nft{
     display: flex;
     border-radius: 1%;
     height: 35rem;
-    background-color:midnightblue;
+    background-color: goldenrod;
     margin: 1rem;
     padding: 1rem;
     font-family: 'Koulen', cursive;  
@@ -86,19 +74,26 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
 
 .nft:hover{
     height: 40rem;
-    background-color:orange;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
 }
-.nft li{
-    position: absolute;
-    position: relative;
+.logo__nft {
+   height: 15rem;
 }
-.Footer {
+.footer {
     display: flex;
     border-radius: 1%;
     box-sizing:border-box;
     margin: 1rem;
     padding: 1rem;
-    background-color: coral;  
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
     place-items: center;
     flex-direction: column;
     justify-content: center;
@@ -107,9 +102,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
     font-family: 'Koulen', cursive;
     position: relative;
 }
-.Footer span{
-    position: absolute;
-    position: relative;
+.logo__footer {
+    height: 15rem;
 }
 #Index__estructura{
     display:grid;
@@ -124,9 +118,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endCo
     grid-area: header;
   
 }
-div{
-    list-style: none;
-} 
 .Main{
     grid-area: main ;
 }
@@ -136,7 +127,7 @@ div{
 .nft{
     grid-area: NFT;
 }
-.Footer{
+.footer{
     grid-area: footer;
 }
 @media screen and (max-width:425px) {
@@ -148,19 +139,7 @@ div{
                              "cripto cripto cripto"
                              "footer footer footer";
     }
-    .Header {
-        display: flex;
-        margin: 1rem;
-        padding: 1rem;
-        border-radius: 1%;
-        color:black; 
-        background-color:blanchedalmond; 
-        font-family: 'Koulen', cursive;
-        place-items: center;
-        justify-content:space-evenly ;
-        align-items: center;
-        flex-direction:column;
-    }
+  
     }
 @media screen and (min-width:768px) {
     #Index__estructura{

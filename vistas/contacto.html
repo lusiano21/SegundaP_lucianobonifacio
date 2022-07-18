@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="../bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuario</title>
-    <link rel="stylesheet" href="../favicon.png">
+    <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../css/contacto.css">
 </head>
-<body id="fondocontac">
+<body id="contac__estructura">
   <header class="usu">
   <ul>
     <li>Crea tu usuario</li>
@@ -17,38 +17,50 @@
   <form action="" method="get" enctype="text/plain">
     <fieldset class="usuNu">
       <legend>Datos de cuenta</legend>
-      <div>
-        <label for="userName">Crea un usuario:____</label>
-        <input type="text" id="userName" name="userName" required>
-      </div>
-      <div>
-      <label for="userPassword">Crea una contraseña:</label>
-      <input type="password" id="userPassword" name="userPassword" required>
-    </div>
-    <div>
-      <label for="userMail">Correo:__________</label>
-      <input type="email" id="userMail" name="userMail" required>
-    </div>
-    <div>
-      <label for="userDate">Edad:____________</label>
-      <input type="date" name="userDate" id="userDate"
-      min="1950-05-10" max="2004-05-10" required>
-    </div>
-    <div>
-      <label for="userTel">Teléfono:________</label>
-      <input type="tel" name="userTel" id="userTel" required>
-    </div>
-    <div>
-      <label for="userOpinion">Porque quieres invertir:</label>
-      <textarea name="userOpinion" id="userOpinion" cols="30" rows="10" placeholder="*Opcional"></textarea>
-    </div>
-    <input type="reset" value="Borrar todo"> 
-      <button>Enviar</button> 
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Pablito123@gmail.com">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Crea un clave</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Crea un usuario</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Pablito123">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Edad</label>
+          <input type="date" class="form-control" id="inputAddress2" min="1950-05-10" max="2004-07-18">
+        </div>
+        <div class="col-md-6">
+          <label for="inputel" class="form-label">Teléfono</label>
+          <input type="tel" class="form-control" id="inputel">
+        </div>
+        <div>
+          <label for="userOpinion">Porque quieres invertir:</label>
+          <textarea name="userOpinion" class="form-control" id="userOpinion" cols="30" rows="5" placeholder="*Opcional"></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <input class="btn btn-dark" type="reset" value="Borrar todo"> 
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
     </fieldset>
     </form>    
   <a href="../index.html">Volver a Inicio</a>
   </header>
   <li class="logo">inversiones.com</li>
-  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

@@ -4,18 +4,23 @@
     }
 .bille{
     display: flex;
-    border-radius: 1%;
-    background-color: darkolivegreen;
+    border-radius: 2%;
+    height: 30rem;
     margin: 1rem;
     padding: 1rem;
     font-family: 'Koulen', cursive;  
     place-items: center;
-    align-items: center;
-    justify-content:space-between;
+    background-color: darkolivegreen;
+    align-items:center;
+    justify-content:center;
     flex-direction:column;
+    transition:height 1s, background 1s;
 }
 div{
     list-style: none;
+}
+.logo__bille{
+    height: 15rem;
 }
 .logo{
     font-family: 'Koulen', cursive;
