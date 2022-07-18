@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+#index__estructura {
+  background-color: orange; }
+
+.logo__in {
+  height: 5rem; }
+
+.main__index {
+  display: flex;
+  border-radius: 1%;
+  height: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: height 1s, background 1s; }
+  .main__index .main__index:hover {
+    height: 35rem;
+    background: #020024;
+    background: -moz-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    background: -webkit-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    background: linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1); }
+
+.cripto {
+  display: flex;
+  border-radius: 1%;
+  height: 35rem;
+  background-color: goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  transition: height 1s, background 1s; }
+  .cripto .cripto:hover {
+    height: 40rem;
+    background: #020024;
+    background: -moz-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    background: -webkit-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    background: linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1); }
+  .cripto .cripto__logo {
+    height: 15rem; }
+
+.nft {
+  display: flex;
+  border-radius: 1%;
+  height: 35rem;
+  background-color: goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  transition: height 1s, background 1s; }
+  .nft .nft:hover {
+    height: 40rem;
+    background: #020024;
+    background: -moz-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    background: -webkit-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    background: linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1); }
+  .nft .nft__logo {
+    height: 15rem; }
+
+.footer {
+  display: flex;
+  border-radius: 1%;
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 1rem;
+  background: #020024;
+  background: -moz-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+  background: -webkit-linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+  background: linear-gradient(90deg, #020024 0%, #795a09 0%, #bd7805 9%, #bb7605 20%, #ffc400 63%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
+  place-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Koulen', cursive;
+  position: relative; }
+  .footer .logo__footer {
+    height: 15rem; }
+
+#index__estructura {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto 2fr auto;
+  grid-template-areas: "header header header"  "NFT main cripto" "footer footer footer"; }
+
+.header__index {
+  grid-area: header; }
+
+.main__index {
+  grid-area: main; }
+
+.cripto {
+  grid-area: cripto; }
+
+.nft {
+  grid-area: NFT; }
+
+.footer {
+  grid-area: footer; }
+
+@media screen and (max-width: 560px) {
+  #index__estructura {
+    background-color: gold;
+    grid-template-areas: "header header header" "main main main" "NFT NFT NFT" "cripto cripto cripto" "footer footer footer"; } }
+
+@media screen and (min-width: 768px) {
+  #index__estructura {
+    background-color: darkkhaki; } }
+
+.inver {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1%;
+  background-color: goldenrod;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column; }
+  .inver .inver__ti {
+    color: red; }
+
+.inver__Tip1 {
+  display: flex;
+  border-radius: 1%;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.inver__Tip2 {
+  display: flex;
+  border-radius: 1%;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.inver__Tip3 {
+  display: flex;
+  border-radius: 1%;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+#inver__estruc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "inver inver inver" "arti1 arti2 arti3"; }
+
+.inver {
+  grid-area: inver; }
+
+.inver__Tip1 {
+  grid-area: arti1; }
+
+.inver__Tip2 {
+  grid-area: arti2; }
+
+.inver__Tip3 {
+  grid-area: arti3; }
+
+@media screen and (max-width: 767px) {
+  #inver__estruc {
+    background-color: gold;
+    grid-template-areas: "inver inver inver" "arti1 arti1 arti1" "arti2 arti2 arti2" "arti3 arti3 arti3"; } }
+
+@media screen and (min-width: 768px) {
+  #inver__estruc {
+    background-color: darkkhaki; } }
+
+#tema_estruc {
+  background-color: gray; }
+
+.tema {
+  background-color: gainsboro;
+  position: relative;
+  font-family: 'Koulen', cursive;
+  border-radius: 2%;
+  padding: 1px;
+  margin: 10px 1px;
+  box-sizing: border-box;
+  width: 100vh;
+  left: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex; }
+
+.logo__index {
+  font-family: 'Koulen', cursive;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 0px;
+  height: 10rem;
+  border-radius: 2%;
+  padding: 0px;
+  margin: 0px;
+  left: 1px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  display: flex; }
+
+@media screen and (max-width: 425px) {
+  #tema__estruc {
+    background-color: chartreuse; } }
+
+@media screen and (min-width: 768px) {
+  #tema__estruc {
+    background-color: darkkhaki; } }
+
+#contac__estructura {
+  background-color: darkslategray; }
+
+.usu {
+  display: flex;
+  border-radius: 2%;
+  height: 55rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  background-color: darkcyan;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: height 1s, background 1s; }
+
+@media screen and (max-width: 425px) {
+  #contac__estructura {
+    background-color: chartreuse; } }
+
+@media screen and (min-width: 768px) {
+  #contac__estructura {
+    background-color: darkkhaki; } }
+
+#bille__estruc {
+  background-color: cornflowerblue; }
+
+.bille {
+  display: flex;
+  border-radius: 2%;
+  height: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Koulen', cursive;
+  place-items: center;
+  background-color: darkolivegreen;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: height 1s, background 1s; }
+  .bille .bille__logo {
+    height: 15rem; }
+
+@media screen and (max-width: 425px) {
+  #bille__estruc {
+    background-color: darkseagreen; } }
+
+@media screen and (min-width: 768px) {
+  #bille__estruc {
+    background-color: seagreen; } }

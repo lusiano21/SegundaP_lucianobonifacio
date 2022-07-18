@@ -1,0 +1,53 @@
+.cripto{
+    display: flex;
+    border-radius: 1%;
+    height: 35rem;
+    background-color: goldenrod;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Koulen', cursive;  
+    place-items: center;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:column;
+    position: relative;
+    transition:height 1s, background 1s;
+    .cripto:hover{
+    height: 40rem;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
+    }
+.cripto__logo {
+    height: 15rem;
+}
+}
+.nft{
+    display: flex;
+    border-radius: 1%;
+    height: 35rem;
+    background-color: goldenrod;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Koulen', cursive;  
+    place-items: center;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:column;
+    position: relative;
+    transition:height 1s, background 1s;
+    .nft:hover{
+    height: 40rem;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(189,120,5,1) 9%, rgba(187,118,5,1) 20%, rgba(255,196,0,1) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffc400",GradientType=1);
+}
+
+.nft__logo {
+height: 15rem;
+}
+}
